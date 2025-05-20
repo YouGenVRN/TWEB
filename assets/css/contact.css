@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 50px;
   background-color: #fff;
 }
 
@@ -23,17 +23,39 @@ header {
   object-fit: contain;
 }
 
+.logo span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#logo img {
+  transition: transform 0.3s ease;
+}
+
+#logo:hover img {
+  transform: scale(1.03);
+}
+
 nav a {
-  margin-left: 30px;
+  margin-left: 45px;
   text-decoration: none;
   color: #777;
   font-size: 16px;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
-nav a.active,
-nav a:hover {
+nav a:hover,
+nav a.active {
+  opacity: 1;
   color: #000;
-  font-weight: bold;
 }
 
 main {
@@ -103,4 +125,43 @@ button {
 
 button:hover {
   background-color: #000;
+}
+
+.footer {
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 60px;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #ffcc00;
+}
+
+.footer-socials {
+  margin-top: 10px;
+  font-size: 18px;
 }
