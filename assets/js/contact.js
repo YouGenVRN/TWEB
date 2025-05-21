@@ -28,6 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     img.style.transform = "scale(1)";
   });
   logo.addEventListener("click", function () {
-  window.location.href = "index.html";
+  window.location.href = "index.php";
   })
 });

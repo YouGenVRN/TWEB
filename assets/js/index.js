@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     logo.addEventListener("click", function () {
-      window.location.href = "index.html";
+      window.location.href = "index.php";
     });
   }
 });

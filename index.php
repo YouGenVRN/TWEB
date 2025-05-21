@@ -31,9 +31,9 @@
   <header>
     <div class="logo" id="logo"><img src="assets/images/VRNWEB.png" alt="LOGO"></div>
     <nav>
-      <a href="index.html" class="active">Acasă</a>
-      <a href="backstage.html">Backstage</a>
-      <a href="contact.html">Contacte</a>
+      <a href="index.php" class="active">Acasă</a>
+      <a href="backstage.php">Backstage</a>
+      <a href="contact.php">Contacte</a>
     </nav>
   </header>
 

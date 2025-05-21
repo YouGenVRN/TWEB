@@ -165,3 +165,11 @@ button:hover {
   margin-top: 10px;
   font-size: 18px;
 }
+
+.success {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}

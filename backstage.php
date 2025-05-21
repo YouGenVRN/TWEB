@@ -13,9 +13,9 @@
       <img src="assets/images/VRNWEB.png" alt="img1">
     </div>
     <nav>
-      <a href="index.html">Acasă</a>
-      <a href="backstage.html" class="active">Backstage</a>
-      <a href="contact.html">Contacte</a>
+      <a href="index.php">Acasă</a>
+      <a href="backstage.php" class="active">Backstage</a>
+      <a href="contact.php">Contacte</a>
     </nav>
   </header>
 

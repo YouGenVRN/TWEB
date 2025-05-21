@@ -13,15 +13,15 @@
       <img src="assets/images/VRNWEB.png" alt="img1">
     </div>
     <nav>
-      <a href="index.html">Acasă</a>
-      <a href="backstage.html">Backstage</a>
-      <a href="contact.html" class="active">Contacte</a>
+      <a href="index.php">Acasă</a>
+      <a href="backstage.php">Backstage</a>
+      <a href="contact.php" class="active">Contacte</a>
     </nav>
   </header>
 
   <main>
     <h1>Lăsați o cerere</h1>
-    <form class="contact-form">
+    <form class="contact-form" action="procesare_contact.php" method="POST">
       <div class="form-group">
         <label for="nume">Nume</label>
         <input type="text" id="nume" name="nume" required>
@@ -44,6 +44,9 @@
         <small id="charCount">0 / 1500 caractere</small>
       </div>
       <button type="submit">Trimite</button>
+      <?php if (isset($_GET['status']) && $_GET['status'] === 'ok'): ?>
+        <p class="success">Mesajul a fost trimis cu succes. Mulțumim!</p>
+      <?php endif; ?>
     </form>
   </main>
 </body>
