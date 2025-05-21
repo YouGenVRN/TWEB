@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Acasă | VRN Production</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/langSelector.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   <script src="assets/js/index.js"></script>
+  <script src="assets/js/lang.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </head>
 
@@ -31,14 +33,19 @@
   <header>
     <div class="logo" id="logo"><img src="assets/images/VRNWEB.png" alt="LOGO"></div>
     <nav>
-      <a href="index.php" class="active">Acasă</a>
-      <a href="backstage.php">Backstage</a>
-      <a href="contact.php">Contacte</a>
+      <a href="index.php" class="active" data-i18n="nav_home">Acasă</a>
+      <a href="backstage.php" data-i18n="nav_backstage">Backstage</a>
+      <a href="contact.php" data-i18n="nav_contact">Contacte</a>
+      <select id="langSwitcher">
+        <option value="ro">RO</option>
+        <option value="ru">RU</option>
+        <option value="en">EN</option>
+      </select>
     </nav>
   </header>
 
   <main>
-    <h1>Reclama</h1>
+    <h1 data-i18n="section_reclama">Reclama</h1>
     <div class="gallery">
       <div class="promo-box">
       <img src="assets/images/Business-Conference.png" alt="img1">
@@ -58,7 +65,7 @@
     </div>
 
 <section id="reels">
-  <h2>Reels</h2>
+  <h2 data-i18n="section_reels">Reels</h2>
 
   <div class="splide" id="reels-carousel">
     <div class="splide__track">
@@ -102,7 +109,7 @@
 </section>
 
 <section id="interviuri">
-  <h2>Interviuri & Podcasturi</h2>
+  <h2 data-i18n="section_interviews">Interviuri & Podcasturi</h2>
   <div class="interview-grid">
     <div class="interview-box" data-link="https://www.youtube.com/watch?v=WmFxboLJat8&t=27s">
       <img src="assets/images/interviu1.png" alt="Interviu 1">

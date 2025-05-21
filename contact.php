@@ -6,6 +6,7 @@
   <title>Contacte | VRN Production</title>
   <link rel="stylesheet" href="assets/css/contact.css" />
   <script src="assets/js/contact.js"></script>
+  <script src="assets/js/lang.js" defer></script>
 </head>
 <body>
   <header>

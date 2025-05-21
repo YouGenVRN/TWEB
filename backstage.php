@@ -6,6 +6,7 @@
   <title>Backstage | VRN Production</title>
   <link rel="stylesheet" href="assets/css/backstage.css" />
   <script src="assets/js/backstage.js"></script>
+  <script src="assets/js/lang.js" defer></script>
 </head>
 <body>
   <header>

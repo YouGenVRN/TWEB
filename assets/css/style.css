@@ -16,6 +16,7 @@ header {
   align-items: center;
   padding: 20px 50px;
   background-color: #fff;
+  gap: 20px;
 }
 
 .logo img {
@@ -40,6 +41,13 @@ header {
 
 #logo:hover img {
   transform: scale(1.03);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-left: auto;
 }
 
 nav a {

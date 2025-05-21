@@ -95,3 +95,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.querySelectorAll('.reel-box, .interview-box').forEach(box => {
+  box.addEventListener('click', () => {
+    const link = box.getAttribute('data-link');
+    if (link) window.open(link, '_blank');
+  });
+});
